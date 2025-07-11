@@ -2,11 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Du Xin's Personal Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Du Xin - Researcher Profile</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      background: white;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #0b3d91;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    a {
+      color: #0b3d91;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff6f61;
+      text-decoration: underline;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+
+    .section-title {
+      text-align: left;
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+      color: #0b3d91;
+      border-bottom: 2px solid #0b3d91;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+
+    ul {
+      list-style: inside disc;
+      text-align: left;
+      color: #333;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Du Xin's Personal Homepage</h1>
-  <p>Name: Du Xin</p>
-  <p>Email: <a href="mailto:goldenbiglord@gmail.com">goldenbiglord@gmail.com</a></p>
+  <div class="container">
+    <h1>Du Xin</h1>
+    <h2>Researcher in Artificial Intelligence</h2>
+
+    <div class="contact-info">
+      <p>Email: <a href="mailto:goldenbiglord@gmail.com">goldenbiglord@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/xindu-soulgain" target="_blank" rel="noopener">github.com/duxin</a></p>
+      <p>Personal Website: <a href="https://xindu-soulgain.github.io" target="_blank" rel="noopener">duxin.github.io</a></p>
+    </div>
+
+    <div>
+      <div class="section-title">About Me</div>
+      <p>
+        I am a passionate AI researcher focused on advancing machine learning algorithms and their real-world applications. 
+        My interests include deep learning, computer graphics, 3d reconstruction and natural language processing.
+      </p>
+    </div>
+
+    <div>
+      <div class="section-title">Research Interests</div>
+      <ul>
+        <li>Deep Learning & Neural Networks</li>
+        <li>Computer Vision & Image Analysis</li>
+        <li>Natural Language Processing</li>
+        <li>Multi-modal learning</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="section-title">Selected Publications</div>
+      <ul>
+        <!-- <li><a href="https://doi.org/10.xxxx/xxxxxx" target="_blank" rel="noopener">Paper Title One - Conference/Journal 2024</a></li> -->
+      </ul>
+    </div>
+
+    <footer>
+      &copy; 2025 Du Xin. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
